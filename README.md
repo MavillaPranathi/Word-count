@@ -22,7 +22,7 @@ output got.
 Developed by : M.PRANATHI
 
 Register Number : 22005710
-
+```
 fname = input('Enter file name: ')
 num_words=0
 with open(fname,'r') as f:
@@ -30,6 +30,7 @@ with open(fname,'r') as f:
         words = line.split()
         num_words += len(words)
 print('Number of words: ',num_words)
+```
 ### OUTPUT:
 !['OUTPUT'](/WORDCOUNT.png)
 
